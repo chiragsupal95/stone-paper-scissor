@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    background-color: #FFD36E;
 }
 h1{
     text-align: center;
@@ -11,9 +12,51 @@ h1{
     padding: 5px;
 }
 
+#stone{
+    background-color: #413F42;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#stone:hover{
+    background-color: #797779;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#paper{
+    background-color: #EEEEEE;
+    border:none;
+    border-radius: 10px;
+}
+
+#paper:hover{
+    background-color: #ffffff;
+    border:none;
+    border-radius: 10px;
+}
+
+#scissor{
+    background-color: #43919B;
+    border:none;
+    border-radius: 10px;
+    color:white;
+}
+
+#scissor:hover{
+    background-color: #21c9df;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+    
+}
+
 input{
     margin: 50px;
-    padding: 10px;
+    padding: 20px;
     width: 14%;
     
 }
@@ -28,4 +71,5 @@ input{
 p{
     margin: 20px;
     font-size: x-large;
+    padding: 10px;
 }
